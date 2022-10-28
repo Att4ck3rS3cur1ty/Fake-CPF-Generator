@@ -44,7 +44,7 @@ def generate_second_digit(sum):
     return digit_two
 
 def main():
-    for x in range(999999999):
+    for x in range(pow(10, 11)):
         generate_nine_digits()
 
 if __name__ == "__main__":
